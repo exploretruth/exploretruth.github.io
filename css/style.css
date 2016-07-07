@@ -605,12 +605,16 @@ blockquote:last-child { margin-bottom: 0; }
 }
 
 /* ------------------------------------------------------------ *\
-	Calloout
+	Callout
 \* ------------------------------------------------------------ */
 
 .callout { border-radius: 14px; border: 2px solid #d3d5d6; padding: 22px 0 22px 86px; }
 
 .callout .callout-title { color: #231f20; line-height: 1.2;  }
+
+.callout.sample { margin-top: 40px; }
+
+.sample .btn-red { width: 100%; }
 
 @media (max-width: 1200px) {
 	.callout { padding: 22px 0; text-align: center; }
@@ -620,6 +624,7 @@ blockquote:last-child { margin-bottom: 0; }
 	.callout { padding: 15px 0 20px; }
 	.callout .callout-title { margin-bottom: 10px; }
 	.callout .callout-title br { display: none; }
+	.sample .btn-red { width: 50%; }
 }
 
 /* ------------------------------------------------------------ *\
